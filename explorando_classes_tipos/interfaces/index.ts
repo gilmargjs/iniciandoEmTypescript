@@ -22,5 +22,7 @@ const felino: IFelino = {
     nome: 'Leão',
     tipo: 'terrestre',
     visaoNoturna: true,
-
+    excutarRugido: function (alturaEmDecibes: number): void {
+        throw new Error("Function not implemented.");
+    }
 }
